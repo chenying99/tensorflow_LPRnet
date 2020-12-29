@@ -21,7 +21,7 @@ CHECKPOINT_DIR = './checkpoint'
 IMG_SIZE = [94, 24]
 CH_NUM = 3
 
-CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ0123456789" # exclude I, O
+CHARS = "京沪津渝冀晋蒙辽吉黑苏浙皖闽赣鲁豫鄂湘粤桂琼川贵云藏陕甘青宁新ABCDEFGHJKLMNPQRSTUVWXYZ0123456789" # exclude I, O
 CHARS_DICT = {char:i for i, char in enumerate(CHARS)}
 DECODE_DICT = {i:char for i, char in enumerate(CHARS)}
 
